@@ -26,7 +26,7 @@ class AddTitleToMessagesTable extends Migration
     public function down()
     {
         Schema::table('messages', function (Blueprint $table) {
-            $table->doropColumn('title');
+            //$table->doropColumn('title');
         });
     }
 }
